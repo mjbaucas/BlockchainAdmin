@@ -12,7 +12,7 @@ for x in range(0,1000):
 	print(x.text)
 	print(elapsed)
 
-	f = open('8DeviceLocalH.txt', 'a')
+	f = open('4DeviceLocalA.txt', 'a')
 	f.write(str(elapsed) + '\n')
 	f.close()
 	
@@ -21,6 +21,6 @@ for x in range(0,1000):
 	print(x.text)
 	print(elapsed)
 
-	f = open('8DevicePostmanH.txt', 'a')
+	f = open('4DevicePostmanA.txt', 'a')
 	f.write(str(elapsed) + '\n')
 	f.close()
